@@ -1,0 +1,2 @@
+-keep class com.ultra.vectorizer.data.engine.PotraceNativeBridge { *; }
+-keepclasseswithmembernames class * { native <methods>; }

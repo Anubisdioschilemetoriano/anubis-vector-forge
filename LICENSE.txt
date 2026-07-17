@@ -1,0 +1,36 @@
+                    GNU GENERAL PUBLIC LICENSE
+                       Version 2, June 1991
+
+ Copyright (C) 1989, 1991 Free Software Foundation, Inc.
+ 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301  USA
+ Everyone is permitted to copy and distribute verbatim copies
+ of this license document, but changing it is not allowed.
+
+                            Preamble
+
+  The licenses for most software are designed to take away your freedom
+to share and change it. By contrast, the GNU General Public License is
+intended to guarantee your freedom to share and change free software--to
+make sure the software is free for all its users.
+
+  [Texto completo de la GPLv2 estándar — ver https://www.gnu.org/licenses/old-licenses/gpl-2.0.html]
+
+  --- ACLARACIÓN ESPECÍFICA PARA ULTRA VECTORIZER ---
+
+  Los archivos dentro de src/main/cpp/potrace/ (potrace.h y potrace_core.cpp)
+  son una implementación derivada del algoritmo Potrace de Peter Selinger
+  y están licenciados bajo GPLv2+.
+
+  Si distribuyes la APK compilada públicamente (Google Play, tiendas,
+  descarga directa), estás obligado por la GPLv2+ a:
+  1. Incluir este archivo LICENSE.txt con la distribución
+  2. Poner a disposición el código fuente completo de los componentes
+     derivados de Potrace (potrace_core.cpp, potrace.h, potrace_wrapper.cpp)
+  3. No imponer restricciones adicionales sobre esos componentes
+
+  Para uso interno, prototipo o desarrollo privado SIN distribución
+  pública, la GPL no impone obligaciones de publicación.
+
+  Si necesitas una versión SIN restricciones GPL para distribución
+  comercial, contacta para generar un tracer desde cero (marching squares
+  + Ramer-Douglas-Peucker) bajo licencia MIT.

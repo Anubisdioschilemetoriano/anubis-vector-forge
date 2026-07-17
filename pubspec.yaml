@@ -1,0 +1,21 @@
+name: ultra_vectorizer_host
+description: Anubis Vector Forge - Host app para plugin Ultra Vectorizer.
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.2.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  image_picker: ^1.0.7
+  ultra_vectorizer:
+    path: ./ultra_vectorizer
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
